@@ -11,3 +11,6 @@ app.use(express.json());
 app.use(express.urlencoded({ectended: false}));
 
 //routers
+
+
+module.exports =app;
