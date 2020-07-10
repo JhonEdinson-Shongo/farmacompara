@@ -4,6 +4,6 @@ const router = Router();
 const controllerList = require('../controllers/auth.controller');
 
 router.route("/")
-    .post(controllerList.getList);
+    .post(controllerList.getProducts);
 
 module.exports = router;

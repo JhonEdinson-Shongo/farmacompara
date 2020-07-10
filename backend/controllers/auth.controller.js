@@ -2,7 +2,7 @@ const productController = {};
 
 const Product = require('../models/Product');
 
-productController.getProduct = async (req,res) => {
+productController.getProducts = async (req,res) => {
     const token = req.body;
 	if (JSON.stringify(token) !== "{}") {
 		const list = await Product.find();
